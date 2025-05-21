@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Silvia Canelón, PhD">
 <meta name="twitter:description" content="Researcher, educator, and journalist with data science expertise.">
-<meta name="twitter:image" content="assets/silvia/img/silvia-social.png">
+<meta name="twitter:image" content="https://epicaac.github.io/assets/silvia/img/silvia-social.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
       <div class="about-contents"><div id="hero-heading">
 <p>EPICA es una asociación que impulsa el desarrollo colaborativo, sustentable y competitivo de la cerveza artesanal local. Reunimos a productores, puntos de venta, distribuidores y entusiastas que comparten una visión común: promover la cultura cervecera con identidad, calidad y responsabilidad social. Trabajamos por la regularización justa de nuestros espacios, organizamos festivales, capacitaciones y eventos culturales, y defendemos los intereses del gremio ante autoridades. Únete a nuestra comunidad y sé parte del movimiento que transforma a la CDMX en una ciudad referente de la cerveza artesanal.</p>
-<p><a href="./about" class="about-links subtitle">Conoce más sobre nosotros →</a></p>
+<p><a href="./about/index.html" class="about-links subtitle">Conoce más sobre nosotros →</a></p>
 </div></div>
     </div>
     <img src="assets/epica/img/epica_logo.png" class="about-image
@@ -258,7 +258,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/epicaac\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
