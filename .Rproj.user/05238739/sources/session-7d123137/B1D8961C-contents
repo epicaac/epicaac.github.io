@@ -1,0 +1,48 @@
+---
+title: "E.P.I.C.A"
+pagetitle: "E.P.I.C.A"
+subtitle: "Establecimientos y Productores Independientes de Cerveza Artesanal A.C."
+image: assets/epica/img/epica_logo.png
+
+
+twitter-card:
+    title: Silvia Canelón, PhD
+    description: |
+      Researcher, educator, and journalist with data science expertise.
+    image: assets/silvia/img/silvia-social.png
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - icon: facebook
+      href: https://linkedin.com/in/spcanelon
+    - icon: instagram
+      href: https://linkedin.com/in/spcanelon
+    - icon: github
+      href: https://github.com/spcanelon
+    - icon: tiktok
+      href: https://github.com/spcanelon  
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+resources:
+  - assets/index.css
+---
+
+<br><br>
+
+::: {#hero-heading}
+EPICA es una asociación que impulsa el desarrollo colaborativo, sustentable y competitivo de la cerveza artesanal local. Reunimos a productores, puntos de venta, distribuidores y entusiastas que comparten una visión común: promover la cultura cervecera con identidad, calidad y responsabilidad social. Trabajamos por la regularización justa de nuestros espacios, organizamos festivales, capacitaciones y eventos culturales, y defendemos los intereses del gremio ante autoridades. Únete a nuestra comunidad y sé parte del movimiento que transforma a la CDMX en una ciudad referente de la cerveza artesanal.
+
+[Conoce más sobre nosotros →](/about){.about-links .subtitle}
+:::
+
+<!-- hero-heading -->
